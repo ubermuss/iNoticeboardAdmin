@@ -1,0 +1,135 @@
+$primary-color-dark:   #D32F2F;
+$primary-color:        #db4437;
+$primary-color-light:  #FFCDD2;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF5252;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
+$dark-white:			#ececec;
+a{
+	text-decoration: none !important;
+}
+.navigation{
+	display:initial;
+	#log-in-btn{
+		float:right;
+		margin-top: auto;
+		padding-right:15px;
+	}
+}
+.nav-wrapper{
+	margin-top:10px;
+}
+nav{
+	color:$primary-color-text;
+	margin-top:10px;
+	p,span{
+	font-size:16px;
+	padding-left:15px;
+	margin-top:10px;
+	}
+	a{
+		color:$primary-color-text;
+		font-weight:400;
+	}
+}
+.intro-inotice{
+	background-image:url("../img/app.jpg");
+	height:400px;
+	background-position:center;
+	background-repeat: no-repeat;
+background-attachment: fixed;
+	margin-top:-45px;
+	h1,p{
+		color:$primary-color-text;
+	}
+}
+.intro-notice-wrapper{
+	margin-top:80px;
+	text-align:center;
+}
+.download{
+	color:$primary-color !important;
+}
+.promo-wrapper{
+	// height:100000px;
+	h3,p{
+		color:$primary-color-text;
+	}
+}
+.image-wrapper{
+	text-align:center;
+}
+.btn-fab-custom{
+	position: fixed !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+}
+.promo{
+	background: #EB3349; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height:auto;
+	img{
+		height:120px;
+		margin-top: 40px;
+		padding-bottom:20px;
+		text-align: center;
+	}
+}
+.promo-right{
+	margin-top:20px;
+	padding-bottom:20px;
+}
+.features{
+	background-color:$primary-color-text;
+}
+.features-wrapper{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.feature-header{
+	text-align:center;
+	font-weight:500;
+}
+.feature-desc{
+	text-align:center;
+}
+.icon-badge{
+	text-align:center;
+	i{
+		font-size:50px;
+	}
+}
+.platform{
+	background-color:$primary-text-color;
+}
+.platform-icon{
+	text-align:center;
+	i{
+		margin-top:40px;
+		font-size:100px;
+		color:green;
+	}
+}
+.platform-right{
+	h3,p{
+		color:$primary-color-text;
+	}
+}
+@media(max-width:768px){
+	.promo-right{
+		h3,p{
+		text-align: center;
+	}
+	}
+	.platform-right{
+		h3,p{
+			text-align: center;
+		}
+	}
+
+}

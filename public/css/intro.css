@@ -1,0 +1,169 @@
+/* line 10, intro.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 13, intro.scss */
+.navigation {
+  display: initial;
+}
+/* line 15, intro.scss */
+.navigation #log-in-btn {
+  float: right;
+  margin-top: auto;
+  padding-right: 15px;
+}
+
+/* line 21, intro.scss */
+.nav-wrapper {
+  margin-top: 10px;
+}
+
+/* line 24, intro.scss */
+nav {
+  color: white;
+  margin-top: 10px;
+}
+/* line 27, intro.scss */
+nav p, nav span {
+  font-size: 16px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+/* line 32, intro.scss */
+nav a {
+  color: white;
+  font-weight: 400;
+}
+
+/* line 37, intro.scss */
+.intro-inotice {
+  background-image: url("../img/app.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -45px;
+}
+/* line 44, intro.scss */
+.intro-inotice h1, .intro-inotice p {
+  color: white;
+}
+
+/* line 48, intro.scss */
+.intro-notice-wrapper {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* line 52, intro.scss */
+.download {
+  color: #db4437 !important;
+}
+
+/* line 57, intro.scss */
+.promo-wrapper h3, .promo-wrapper p {
+  color: white;
+}
+
+/* line 61, intro.scss */
+.image-wrapper {
+  text-align: center;
+}
+
+/* line 64, intro.scss */
+.btn-fab-custom {
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* line 71, intro.scss */
+.promo {
+  background: #EB3349;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #eb3349, #f45c43);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eb3349, #f45c43);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
+}
+/* line 76, intro.scss */
+.promo img {
+  height: 120px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 83, intro.scss */
+.promo-right {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 87, intro.scss */
+.features {
+  background-color: white;
+}
+
+/* line 90, intro.scss */
+.features-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 94, intro.scss */
+.feature-header {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* line 98, intro.scss */
+.feature-desc {
+  text-align: center;
+}
+
+/* line 101, intro.scss */
+.icon-badge {
+  text-align: center;
+}
+/* line 103, intro.scss */
+.icon-badge i {
+  font-size: 50px;
+}
+
+/* line 107, intro.scss */
+.platform {
+  background-color: #212121;
+}
+
+/* line 110, intro.scss */
+.platform-icon {
+  text-align: center;
+}
+/* line 112, intro.scss */
+.platform-icon i {
+  margin-top: 40px;
+  font-size: 100px;
+  color: green;
+}
+
+/* line 119, intro.scss */
+.platform-right h3, .platform-right p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  /* line 125, intro.scss */
+  .promo-right h3, .promo-right p {
+    text-align: center;
+  }
+
+  /* line 130, intro.scss */
+  .platform-right h3, .platform-right p {
+    text-align: center;
+  }
+}
