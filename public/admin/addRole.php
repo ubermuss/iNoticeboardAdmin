@@ -67,8 +67,8 @@ $Users = User:: find_by_sql($sql); ?>
       <label for="inputEmail" class="col-md-2 control-label">Role</label>
       <div class="col-md-10">
        <select id="select" class="select form-control" name="R_ID">
-                    <option value="2">Class representative</option>
-                    <option value="3">Faculty representative</option>    
+                    <option value="3">Class representative</option>
+                    <option value="2">Faculty representative</option>    
                   </select>
       </div>
     </div>

@@ -36,7 +36,7 @@
             <div class="col-xs-12">
                 <h1>iNoticeboard<span class="text-muted">&raquo; Your info Companion</span></h1>
                 <p class="lead">iNoticeboard is a unique App and a noticeboard alternative designed to help people get infromation shared in their community.</p>
-                <p><a class="btn btn-raised btn-default download" href="#">DOWNLOAD</a></p>
+                <p><a class="btn btn-raised btn-default download" href="public/downloads/iNoticeboard.apk" target="blank">DOWNLOAD</a></p>
             </div>
         </div>
     </div>    

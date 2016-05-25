@@ -6,6 +6,8 @@
 if(!$Session->is_logged_in()){  redirect_to('log_in.php');}
 $user = User :: find_by_id($Session->user_id);
 $name=$user->First_name;
+$CL_ID=$user->CL_ID;
+$CO_ID=$user->CO_ID;
 $fullname = $user->First_name.' '.$user->Last_name;
  ?>
 <?php 
@@ -29,7 +31,7 @@ if($news->create()){
 }
 }
 $counter = 1;
-$sql="SELECT * FROM news WHERE CO_ID=1 OR CL_ID=1 ORDER BY N_ID DESC";
+$sql="SELECT * FROM news WHERE CO_ID=$CO_ID OR CL_ID=$CL_ID ORDER BY N_ID DESC";
 $news = News :: find_by_sql($sql);
 ?>
 <link rel="stylesheet" href="../css/navmenu.css">
